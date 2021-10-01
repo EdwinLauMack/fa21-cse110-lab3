@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 2 Brainstorming LeetCode Questions</title>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="favicon.ico">
+    </head>
+    <body>
+        <main>
+            <section>
+            <h1> Brainstorming Meeting for LeetCode Questions</h1>
+            <h2> Date: October 1, 2021</h2>
+            <img src="dog.png" alt="dog" width="300" height="200"><br>
+            <audio controls>
+                <source src="A_thousand_miles.mp3" type="audio/mpeg">
+                Your browser does not support the audio element
+            </audio>
+            <hr>
+            </section>
+
+            <section>
+                Quick little video to get your mood up<br><br>
+                <video width="320" height="240" controls>
+                    <source src="Squid Game.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                  <hr>
+            </section>
+
+            <section>
+            <header>
+                <h3>Links of unfinished LeetCode questions from last meeting</h3>
+                <nav>
+                    <ul>
+                        <li><a href ="https://www.geeksforgeeks.org/merging-intervals/">Merging Intervals</a></li>
+                        <li><a href = "https://www.geeksforgeeks.org/check-if-a-given-sequence-of-moves-for-a-robot-is-circular-or-not/">Robot Bounded in a Circle</a></li>
+                        <li><a href = https://www.geeksforgeeks.org/lru-cache-implementation/>LRU Cache</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </header>  
+        </section>
+
+        <section> 
+            <span>Explanation of LeetCode Problems from Last Meeting</span>
+            <br><br>
+            <details>
+                <summary>LeetCode Merging Intervals</summary>
+                <p>An efficient approach is to first sort the intervals according to the starting time. 
+                    Once we have the sorted intervals, we can combine all intervals in a linear traversal. 
+                    The idea is, in sorted array of intervals, if interval[i] doesn’t overlap with interval[i-1], 
+                    then interval[i+1] cannot overlap with interval[i-1] because starting time of interval[i+1] must be greater than or equal to interval[i]. 
+                    Following is the detailed step by step algorithm. </p>
+            
+            </details>
+
+            <details>
+                <summary>LeetCode Robot Bounded in Circle</summary>
+                <p>The idea is to consider the starting position as (0, 0) and direction as East (We can pick any values for these). 
+                If after the given sequence of moves, we come back to (0, 0), then given sequence is circular, otherwise not. </p>
+            </details>
+
+            <details>
+                <summary>LeetCode LRU Cache</summary>
+                <p>Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). 
+                    The most recently used pages will be near front end and least recently pages will be near the rear end.
+                    A Hash with page number as key and address of the corresponding queue node as value.
+                     </p>
+            </details>
+            <hr>
+        </section>
+
+
+        <section>
+        <div>Attendance list from previous meeting</div>
+        <ol>
+            <li>Professor Powell: <b>Attended</b></li>
+            <li>Edwin Estuardo Lau Mack: <b>Attended</b></li>
+            <li>Gurpreet Singh: <b>Attended</b></li>
+            <li>Naweed Malal: <b>Absent</b></li>
+        </ol>
+        <hr>    
+        </section>
+
+        <section>
+            <span>Agenda of what the meeting will cover</span>
+            <ol>
+                <li><strong>Finish the unfinished LeetCode questions from last meeting</strong></li>
+                <li><strong>Move from medium questions to hard questions</strong></li>
+                <li><strong>Start on our personal projects</strong></li>
+            </ol>
+            <hr>
+        </section>
+
+        <section>
+            Important business needed to be talked about
+            <ul>
+                <li>Apply to internships <em>now</em>!</li>
+                <li>Finish reading <i>Cracking the Coding Interview</i></i></li>
+            </ul>
+            <hr>
+        </section>
+
+        <section>
+            <h4>Form</h4>
+            <form>
+                <fieldset>
+                 <legend>Attendance:</legend>
+                 <label for="fname">First name:</label>
+                 <input type="text" id="fname" name="fname"><br><br>
+
+                 <label for="lname">Last name:</label>
+                 <input type="text" id="lname" name="lname"><br><br>
+
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email"><br><br>
+
+                 <label for="birthday">Birthday:</label>
+                 <input type="date" id="birthday" name="birthday"><br><br>
+
+                 <input type="checkbox" id="class1" name="class1" value="CSE 110">
+                 <label for="class1">I am taking CSE 110</label><br>
+                 <input type="checkbox" id="class2" name="class2" value="CSE 101">
+                 <label for="class2">I am taking CSE 101</label><br>
+                 <input type="checkbox" id="class3" name="class3" value="CSE 151A">
+                 <label for="class3">I am taking CSE 151A</label><br><br>
+
+                 <input type="radio" id="car" name="transportation" value="car">
+                 <label for="car">I go to school in car</label><br>
+                 <input type="radio" id="bike" name="transportation" value="bike">
+                 <label for="bike">I go to school in bike</label><br>
+                 <input type="radio" id="bus" name="transporation" value="bus">
+                 <label for="bus">I go to school in bus</label><br><br>
+
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+               <hr>
+            </section>
+
+            
+            <section>
+               <br><form>
+                <label for="CSE110">Review for my Meeting Minutes:</label><br><br>
+                <textarea id="review" name="review" rows="4" cols="60">
+                  Please write a review for my Meeting Minutes
+                  </textarea>
+                  <br><br>
+                  <input type="submit" value="Submit">
+                </form>
+                <hr>
+            </section>
+            
+
+            <section>
+                <form>
+                    <label for="browser">What is your favorite browser:</label>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                      <option value="Edge">
+                      <option value="Firefox">
+                      <option value="Chrome">
+                      <option value="Opera">
+                      <option value="Safari">
+                    </datalist><br><br>
+                    <input type="submit">
+                  </form>
+                  <hr>
+            </section>
+
+            <section>
+                <form>
+                    <label for="attendance">Will you attend the next meeting?</label>
+                    <select name="attendance" id="attendance">
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                      <option value="maybe">Maybe</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <hr>
+            </section>
+
+            <section>
+                <button type="button" onclick="window.location.href='https://www.youtube.com/watch?v=iN14w_3Qwus&ab_channel=MichaelChalkitis';">Go to next page!</button>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Edwin Estuardo Lau Mack<br>
+            <a href ="mailto:elaumack@ucsd.edu">My Email</a></p>
+        </footer>
+    </body>
+</html>
+
+
+<!--title (e.g. "Pomodoro Timer First Brainstorm")
+subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+subtitle for the date
+attendance list
+agenda of what the meeting will cover
+things that were unfinished business from last meeting
+things that are new business that need to be talked about
+any miscellaneous comments / questions / concerns that anyone would like to bring up
+pictures of any diagrams / architecture / things that were presented
+SWE meetings often have people diagram things on a whiteboard so we want those captured as well
+For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
+audio recording the meeting
+video recording of the meeting -->
