@@ -1,19 +1,88 @@
+/* changes the color of the text for all h1's using rgba */
 h1 {
     color:rgba(0,0,128,0.7)
 }
 
+/* changes the color of the text for all h2's using color name */
 h2{
     color:dimgray
 }
 
+/* changes the color of the text for all h3's using hexadecimal */
 h3 {
     color:#024a1f
 }
 
+/* changes the color of the text for all h4's using hsl */
 h4 {
     color:hsl(206, 100%, 50%)   
 }
 
+/* changes background color for the top part of the website */
 #top{
-    background-color:honeydew
+    background-color:honeydew;
+    
 }
+
+/* changes font size using absolute unit px */
+#absoluteUnit1{
+    font-size: 18px;
+}
+
+/* changes font size using absolute unit pt */
+.absoluteUnit2{
+    font-size: 12pt;
+}
+
+/* changes font size using absolute unit cm */
+#absoluteUnit3{
+    font-size: 0.5cm;
+}
+
+/* changes font size using relative unit % */
+#relativeUnit1{
+    font-size: 95%;
+}
+
+/* changes font size using relative unit vh */
+#relativeUnit2{
+    font-size: 1.75vh;
+}
+
+/* changes font size using relative unit ch */
+#relativeUnit3{
+    font-size: 1.9ch;
+}
+
+/*applies LONGHAND border, margin, and padding syntax */
+#boxModelLong{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+    margin-left: 10px;
+    border-style: double;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    
+}
+
+/*applies SHORTHAND border, margin, and padding syntax */
+#boxModelShort{
+    border: 3px solid lightblue;
+    padding: 10px 10px 0px 10px;
+    margin: 20px 500px 20px 10px;
+
+}
+
+/* applies margin:auto on the footer */
+#marginAuto{
+    width: 300px;
+    margin: auto;
+}
+
+

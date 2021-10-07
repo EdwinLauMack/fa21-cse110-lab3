@@ -22,7 +22,7 @@
             </section>
 
             <section>
-                Quick little video to get your mood up<br><br>
+                <p id="absoluteUnit1">Quick little video to get your mood up</p><br><br>
                 <video width="320" height="240" controls>
                     <source src="Squid_Game.mp4" type="video/mp4">
                   Your browser does not support the video tag.
@@ -33,7 +33,7 @@
             <section>
             <header>
                 <h3>Links of unfinished LeetCode questions from last meeting</h3>
-                <nav>
+                <nav class="absoluteUnit2">
                     <ul>
                         <li><a href ="https://www.geeksforgeeks.org/merging-intervals/">Merging Intervals</a></li>
                         <li><a href = "https://www.geeksforgeeks.org/check-if-a-given-sequence-of-moves-for-a-robot-is-circular-or-not/">Robot Bounded in a Circle</a></li>
@@ -45,11 +45,11 @@
         </section>
 
         <section> 
-            <span>Explanation of LeetCode Problems from Last Meeting</span>
+            <span id="absoluteUnit3">Explanation of LeetCode Problems from Last Meeting</span>
             <br><br>
             <details>
                 <summary>LeetCode Merging Intervals</summary>
-                <p>An efficient approach is to first sort the intervals according to the starting time. 
+                <p id="relativeUnit1">An efficient approach is to first sort the intervals according to the starting time. 
                     Once we have the sorted intervals, we can combine all intervals in a linear traversal. 
                     The idea is, in sorted array of intervals, if interval[i] doesn’t overlap with interval[i-1], 
                     then interval[i+1] cannot overlap with interval[i-1] because starting time of interval[i+1] must be greater than or equal to interval[i]. 
@@ -59,13 +59,13 @@
 
             <details>
                 <summary>LeetCode Robot Bounded in Circle</summary>
-                <p>The idea is to consider the starting position as (0, 0) and direction as East (We can pick any values for these). 
+                <p id="relativeUnit2">The idea is to consider the starting position as (0, 0) and direction as East (We can pick any values for these). 
                 If after the given sequence of moves, we come back to (0, 0), then given sequence is circular, otherwise not. </p>
             </details>
 
             <details>
                 <summary>LeetCode LRU Cache</summary>
-                <p>Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). 
+                <p id="relativeUnit3">Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). 
                     The most recently used pages will be near front end and least recently pages will be near the rear end.
                     A Hash with page number as key and address of the corresponding queue node as value.
                      </p>
@@ -85,24 +85,28 @@
         <hr>    
         </section>
 
-        <section>
+        <section id="boxModelLong">
             <span>Agenda of what the meeting will cover</span>
             <ol>
                 <li><strong>Finish the unfinished LeetCode questions from last meeting</strong></li>
                 <li><strong>Move from medium questions to hard questions</strong></li>
                 <li><strong>Start on our personal projects</strong></li>
             </ol>
-            <hr>
         </section>
 
-        <section>
+        <hr>
+
+
+        <section id="boxModelShort">
             Important business needed to be talked about
             <ul>
                 <li>Apply to internships <em>now</em>!</li>
                 <li>Finish reading <i>Cracking the Coding Interview</i></li>
             </ul>
-            <hr>
         </section>
+
+        <hr>
+
 
         <section>
             <h4>Form</h4>
@@ -191,7 +195,7 @@
 
         </main>
 
-        <footer>
+        <footer id="marginAuto">
             <p>Edwin Estuardo Lau Mack<br>
             <a href ="mailto:elaumack@ucsd.edu">My Email</a></p>
         </footer>
