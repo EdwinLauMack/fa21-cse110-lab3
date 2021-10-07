@@ -24,10 +24,9 @@ h4 {
     
 }
 
-/* changes font size using absolute unit px and used text-align to the center */
+/* changes font size using absolute unit px */
 #absoluteUnit1{
     font-size: 18px;
-    text-align: center;
 }
 
 /* changes font size using absolute unit pt */
@@ -40,23 +39,19 @@ h4 {
     font-size: 0.5cm;
 }
 
-/* changes font size using relative unit % and utilizes max-width for the sizing*/
+/* changes font size using relative unit % */
 #relativeUnit1{
     font-size: 95%;
-    max-width: 80%
 }
 
-/* changes font size using relative unit vh and utilizes min-width and max-width for the sizing */
+/* changes font size using relative unit vh */
 #relativeUnit2{
     font-size: 1.75vh;
-    min-width: 100px;
-    max-width: 80%
 }
 
-/* changes font size using relative unit ch and utilized min-width and max-width for the sizing */
+/* changes font size using relative unit ch */
 #relativeUnit3{
     font-size: 1.9ch;
-    max-width: 80%
 }
 
 /*applies LONGHAND border, margin, and padding syntax */
@@ -84,37 +79,10 @@ h4 {
 
 }
 
-/* applies margin:auto on the footer and utilizes width and height for the sizing*/
+/* applies margin:auto on the footer */
 #marginAuto{
     width: 300px;
-    height: 50px;
     margin: auto;
 }
-
-/* applies text decoration and color to important business needed to be talked about to mark it as "done" */
-#textDecoration{
-    text-decoration: line-through;
-    color: darkorange;
-}
-
-/* applies inline to the display property */
-#displayInline{
-    display: inline;
-    color: red;
-}
-
-/* applies block to the display property */
-#displayBlock{
-    display: inline-block;
-    font-size: 18px;
-}
-
-/* allows to text-align the inline-block created to the center */
-#justifyBlock{
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-}
-
-
 
 
