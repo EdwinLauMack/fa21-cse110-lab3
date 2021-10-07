@@ -1,0 +1,19 @@
+h1 {
+    color:rgba(0,0,128,0.7)
+}
+
+h2{
+    color:dimgray
+}
+
+h3 {
+    color:#024a1f
+}
+
+h4 {
+    color:hsl(206, 100%, 50%)   
+}
+
+#top{
+    background-color:honeydew
+}
