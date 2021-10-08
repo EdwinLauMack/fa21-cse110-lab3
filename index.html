@@ -10,6 +10,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+        <style> 
+        /* combining two selectors, all elements <b> inside the class attendance and internal styling */
+            b.attendance{
+              color:red;
+            }
+        </style>
     </head>
     <body>
         <main>
@@ -24,7 +30,7 @@
             <hr>
             </section>
 
-            <section id="justifyBlock"  >
+            <section id="justifyBlock">
                 <p id="absoluteUnit1">Quick little video to get your <p id="displayBlock">mood up</p></p><br><br>
                 <video width="400" height="300" controls>
                     <source src="Squid_Game.mp4" type="video/mp4">
@@ -78,12 +84,12 @@
 
 
         <section id >
-        <div>Attendance list from previous meeting</div>
+        <div class="attendance">Attendance list from previous meeting</div>
         <ol>
-            <li>Professor Powell: <b>Attended</b></li>
-            <li>Edwin Estuardo Lau Mack: <b>Attended</b></li>
-            <li>Gurpreet Singh: <b>Attended</b></li>
-            <li>Naweed Malal: <b>Absent</b></li>
+            <li style="color:navy;">Professor Powell: <b class="attendance">Attended</b></li> <!-- inline styline here -->
+            <li style="color:navy;">Edwin Estuardo Lau Mack: <b class="attendance">Attended</b></li>
+            <li style="color:navy;">Gurpreet Singh: <b class="attendance">Attended</b></li>
+            <li style="color:navy;">Naweed Malal: <b class="attendance">Absent</b></li>
         </ol>
         <p><b>Please make your best effort to attend all meetings!<b></b></p>
         <hr>    
