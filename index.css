@@ -115,6 +115,101 @@ h4 {
     text-align: center;
 }
 
+/* applies hover pseudoclass to the our links element */
+a:hover{
+    color: #ff0000;
+    font-size: 22px;
+}
 
+/* applies active pseudoclass to our links elements */
+a:active{
+    background-color: yellow;
+}
 
+#relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  #absolute {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #73AD21;
+  }
 
+/* applied flex to display property and used three flexbox related attributes (flex-direction, flex-wrap and flex-basis*/
+  .container-1{
+    display:flex;
+    flex-direction: row-reverse; /*one flex related attribute*/
+    flex-wrap: nowrap; /*second flex related attribute*/
+    justify-content: space-between;
+  } 
+
+  
+  .container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+  }
+/* defined the size of the element inside the container */
+
+  .container-1-box{
+    flex-basis: 18% /*third flex related attribute */
+  }
+
+  /* applied grid to display property and used three grid related attribute (grid-template-columns, grid-template-rows, column-gap, row-gap) */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+    padding: 10px;
+  }
+  /*applied styling to the grid box itself */
+  .grid-item {
+    background-color: lightskyblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* applied styling to the grid box itself */
+  .grid-item-red{
+    background-color: lightskyblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* applied styling to the grid box itself */
+.grid-item-red > p
+{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+}
+
+ /* Added relative position */
+.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+/* Added aboslute position */
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
