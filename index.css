@@ -14,7 +14,7 @@ h3 {
 }
 
 /* changes the color of the text for all h4's using hsl */
-h4 {
+h4 {  
     color:hsl(206, 100%, 50%)   
 }
 
@@ -151,7 +151,7 @@ a:active{
   } 
 
   
-  .container-1 div{
+  .container-1 div{ /* utilizes the descendant selector for all descendants of the container-1 class */
     border: 1px #ccc solid;
     padding: 10px;
   }
@@ -189,7 +189,7 @@ a:active{
 }
 
 /* applied styling to the grid box itself */
-.grid-item-red > p
+.grid-item-red > p /*utilizes the child selector to the children of the grid item red class */
 {
     text-decoration: line-through;
     text-decoration-thickness: 3px;
@@ -218,7 +218,7 @@ a:active{
 /* Applies one query based on the screen width. If the screen width goes below 1000px, it changes the background color of the class absolute and relative and the id boxModelLong based on the maxWidth*/
 
 @media only screen and (max-width: 1000px) {
-  #boxModelLong, .absolute, .relative {
+  #boxModelLong, .absolute, .relative { /*utilizes a selector list for id boxModelLong and absolute and relative class */
     background-color: lightcyan;
   }
 }
@@ -228,6 +228,33 @@ a:active{
   font-family: 'Akronim', cursive;
   font-size: 30px;
 }
+
+/* users the universal selector to change the text color of all the elements inside the details tag */
+details *
+{
+  color:darkblue;
+}
+
+/* attribute selector for all links with ".org" anywhere in the URL */
+a[href*=".org"]{
+  color:darkmagenta;
+}
+
+/* General sibling combinator for ol and p */
+ol ~ p {
+  color:salmon;
+}
+
+/* Adjacent sibling combinator on h1 and h2 (h2 is placed immediately after h1 elements) */
+h1 + h2{
+  font-family: 'Akronim', cursive;
+}
+
+
+
+
+
+
 
 
 
