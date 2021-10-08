@@ -26,7 +26,7 @@ Question ideas: What did you finish yesterday?, What will you do today?, Did you
 | Member 10 |        |       |
 | Member 11 |        |       |
 
-# Meeting Times for Next Meeting
+## Meeting Times for Next Meeting
 
 | Possible Meeting Times | Votes |
 | :---         |     :---:      |   
