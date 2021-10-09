@@ -247,7 +247,7 @@ ol ~ p {
 
 /* Adjacent sibling combinator on h1 and h2 (h2 is placed immediately after h1 elements) */
 h1 + h2{
-  font-family: 'Akronim', cursive;
+  font-family: 'Ephesis', cursive;
 }
 
 
